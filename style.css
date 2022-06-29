@@ -1,0 +1,794 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    background: #323042;
+}
+
+.container-1{
+    position: absolute;
+    width: 348px;
+    height: 300px;
+    left: 40px;
+    top: 40px;
+
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 20px;
+}
+
+.img-person img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 70px;
+    top: 25px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 50%;
+    border: 2px solid #00FF00;
+}
+
+/*.profile{
+    position: absolute;
+    width: 348px;
+    height: 292px;
+    left: 40px;
+    top: -25px;
+}*/
+
+.profile h2 {
+    position: absolute;
+    width: 280px;
+    height: 26px;
+    left: 35px;
+    top: 235px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+    line-height: 29px;
+    
+    color: #837E9F;
+}
+
+.profile dd {
+    position: absolute;
+    width: 130px;
+    height: 17px;
+    left: 105px;
+    top: 265px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #837E9F; 
+}
+
+.container-2 {
+    position: absolute;
+    width: 348px;
+    height: 250px;
+    left: 40px;
+    top: 362px;
+    
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.city i{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 105.12px;
+    top: 40.84px;
+    
+    transform: rotate(-0.6deg);
+}
+
+.city a{
+    position: absolute;
+    width: 94px;
+    height: 16px;
+    left: 128.16px;
+    top: 40.84px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    
+    color: #837E9F;
+    
+    transform: rotate(-0.6deg);
+}
+.site i{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 105.12px;
+    top: 70.84px;
+    
+    transform: rotate(-0.6deg);
+}
+
+.site a{
+    position: absolute;
+    width: 64px;
+    height: 15px;
+    left: 128.63px;
+    top: 70.84px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    text-decoration: none;
+    
+    color: #837E9F;
+    
+    transform: rotate(-0.6deg);
+}
+
+.git i{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 105.12px;
+    top: 100.84px;
+    
+    transform: rotate(-0.6deg);
+}
+
+.git a{
+    position: absolute;
+    width: 74px;
+    height: 16px;
+    left: 129.09px;
+    top: 100.84px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    
+    color: #837E9F;
+    
+    transform: rotate(-0.6deg);
+}
+
+.insta i {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 105.12px;
+    top: 130.84px;
+        
+    transform: rotate(-0.6deg);
+}
+
+.insta a{
+    position: absolute;
+    width: 74px;
+    height: 16px;
+    left: 129.09px;
+    top: 130.84px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    
+    color: #837E9F;
+    
+    transform: rotate(-0.6deg);
+}
+
+.twitter i{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 105.12px;
+    top: 163.84px;
+        
+    transform: rotate(-0.6deg);
+}
+
+.twitter a{
+    position: absolute;
+    width: 74px;
+    height: 16px;
+    left: 129.09px;
+    top: 163.84px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    
+    color: #837E9F;
+    
+    transform: rotate(-0.6deg);   
+}
+
+.linkedin i{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 105.12px;
+    top: 193.84px;
+        
+    transform: rotate(-0.6deg);
+}
+
+.linkedin a{
+    position: absolute;
+    width: 74px;
+    height: 16px;
+    left: 129.09px;
+    top: 193.84px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    
+    color: #837E9F;
+    
+    transform: rotate(-0.6deg);  
+ 
+}
+
+.container-3{
+    position: absolute;
+    width: 348px;
+    height: 230px;
+    left: 40px;
+    top: 640.7px;
+    
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.container-3 h3{
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    left: 120.11px;
+    top: 0.49px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    
+    color: #837E9F;
+    
+    transform: rotate(-0.6deg);
+}
+
+.java{
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 35px;
+    top: 53px;
+    
+    background: #CB92B1;
+    border-radius: 30px;
+    transform: rotate(-0.6deg);
+}
+
+.java article{
+    position: absolute;
+    width: 0px;
+    height: 11px;
+    left: 13px;
+    top: 6px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    transform: rotate(-0.6deg);
+}
+
+.react{
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 35px;
+    top: 96px;
+    
+    background: #CB92B1;
+    border-radius: 30px;
+    transform: rotate(-0.6deg);
+}
+
+.react article{
+    position: absolute;
+    width: 0px;
+    height: 11px;
+    left: 21px;
+    top: 6px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    transform: rotate(-0.6deg);    
+}
+
+.css{
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 35px;
+    top: 137px;
+    
+    background: #CB92B1;
+    border-radius: 30px;
+    transform: rotate(-0.6deg);  
+}
+
+.css article{
+    position: absolute;
+    width: 0px;
+    height: 11px;
+    left: 33px;
+    top: 6px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    transform: rotate(-0.6deg); 
+}
+
+.html{
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 140px;
+    top: 53px;
+    
+    background: #CB92B1;
+    border-radius: 30px;
+    transform: rotate(-0.6deg); 
+}
+
+.html article{
+    position: absolute;
+    width: 0px;
+    height: 11px;
+    left: 27px;
+    top: 6px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    transform: rotate(-0.6deg);
+}
+
+.elixir{
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 140px;
+    top: 96px;
+    
+    background: #CB92B1;
+    border-radius: 30px;
+    transform: rotate(-0.6deg);
+}
+
+.elixir article{
+    position: absolute;
+    width: 0px;
+    height: 11px;
+    left: 27px;
+    top: 6px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    transform: rotate(-0.6deg); 
+}
+
+.github-2{
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 140px;
+    top: 137px;
+    
+    background: #CB92B1;
+    border-radius: 30px;
+    transform: rotate(-0.6deg); 
+}
+
+.github-2 article{
+    position: absolute;
+    width: 0px;
+    height: 11px;
+    left: 27px;
+    top: 6px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    transform: rotate(-0.6deg); 
+}
+
+.git-1{
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 244px;
+    top: 53px;
+    
+    background: #CB92B1;
+    border-radius: 30px;
+    transform: rotate(-0.6deg);   
+}
+
+.git-1 article{
+    position: absolute;
+    width: 0px;
+    height: 11px;
+    left: 34px;
+    top: 6px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    transform: rotate(-0.6deg);  
+}
+
+.nodejs{
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 244px;
+    top: 96px;
+    
+    background: #CB92B1;
+    border-radius: 30px;
+    transform: rotate(-0.6deg);  
+}
+
+.nodejs article{
+    position: absolute;
+    width: 0px;
+    height: 11px;
+    left: 25px;
+    top: 6px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    transform: rotate(-0.6deg); 
+}
+
+.python {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 244px;
+    top: 137px;
+    
+    background: #CB92B1;
+    border-radius: 30px;
+    transform: rotate(-0.6deg);   
+}
+
+.python article{
+    position: absolute;
+    width: 0px;
+    height: 11px;
+    left: 25px;
+    top: 6px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    transform: rotate(-0.6deg); 
+}
+
+.retangulo-1{
+    position: absolute;
+    width: 935px;
+    height: 86px;
+    left: 405px;
+    top: 40px;
+    
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+#projetos {
+    position: absolute;
+    width: 121px;
+    left: 30px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #837E9F;
+    top: 35px;
+}
+
+input[type="file"]{
+ display: none;
+}
+
+label{
+    position: absolute;
+    width: 102px;
+    left: 805px;
+    color: #837E9F;
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+    top: 35px;
+}
+
+label:hover{
+    color:#ffff;
+}
+
+.retangulo-2{
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    left: 405px;
+    top: 157px;
+    
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.retangulo-2 p {
+    position: absolute;
+    width: 79px;
+    height: 17px;
+    left: 30px;
+    top: 0px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #837E9F;
+}
+
+.retangulo-2 i {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 25px;
+    top: 30px;
+}    
+ 
+#retangulo-2-p{
+    position: absolute;
+    width: 421px;
+    height: 19px;
+    left: 30px;
+    top: 70px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    
+    
+    color: #837E9F;
+}
+
+#js-1{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 350px;
+    top: 150px;
+}
+
+.sj-1{
+    position: absolute;
+    width: 69px;
+    height: 16px;
+    left: 372px;
+    top: 143px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #837E9F;
+}
+
+.retangulo-3{
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    left: 880px;
+    top: 157px;
+    
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.retangulo-3 p {
+    position: absolute;
+    width: 79px;
+    height: 17px;
+    left: 30px;
+    top: 0px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #837E9F;
+}
+
+.retangulo-3 i {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 25px;
+    top: 30px;
+}    
+ 
+#retangulo-3-p{
+    position: absolute;
+    width: 421px;
+    height: 19px;
+    left: 30px;
+    top: 70px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    
+    
+    color: #837E9F;
+}
+
+#js-2{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 350px;
+    top: 150px;
+}
+
+.sj-2{
+    position: absolute;
+    width: 69px;
+    height: 16px;
+    left: 372px;
+    top: 143px;
+    
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #837E9F;
+}
+
+.retangulo-4{
+    position: absolute;
+    width: 935px;
+    height: 86px;
+    left: 405px;
+    top: 360px;
+    
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+#projetos-2 {
+    position: absolute;
+    width: 132px;
+    left: 30px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #837E9F;
+    top: 35px;
+}
